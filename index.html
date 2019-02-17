@@ -5,187 +5,249 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DCM Inmobilaria</title>
+   
+    <link rel="stylesheet" href="css/estilosdos.css">
+    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/estilos.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	
+
+    
 </head>
 <body>
-    <section class="hero">
-		<header>
-			<div class="wrapper" >
-				<a href="index.html"><h1 class="logo">DCM Inmobilaria</h1></a>
-				<a href="#" class="hamburger"></a>
+    <header class="s-header">
 
-				<nav class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="detalles.html">Servicios</a></li>
-						<li><a href="html/contacto.html">Contactanos</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-    
-			<section class="caption">
-                <h2 class="caption">Encuentra lo que estas buscando</h2>
-                <br><br>
-                <h3 class="properties">Departamentos - Casas - oficinas</h3>
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">DCM Inmobilaria</a>
+        </div>
+        
+        <nav class="header-nav">
+        
+            <a href="#0" class="header-nav__close" ><span>Close</span></a>
+        
+            <div class="header-nav__content">
+                <h3>MENU</h3>
+                        
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="index.html" >Inicio</a></li>
+                    <li><a class="smoothscroll"  href="detalles.html" >Servicios</a></li>
+                    <li><a class="smoothscroll"  href="html/contacto.html" >Contactanos</a></li>
+                </ul>
+                <p>Ofrecer el mejor servicio de intermediacion entre la oferta y la demanda de Bienes Raices en la ciudad de Santa Cruz de la Sierra - Bolivia.</p>
+            
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                            
+                </ul>
+        
+            </div> 
+        
+        </nav>  
+        
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+        
+    </header>
 
-			</section>
+    <section id="home" class="s-home target-section" data-parallax="scroll"  data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+        
+        <div class="home-content">
+        
+            <div class="row home-content__main">
+        
+                <h3>Bienvenido a DCM Inmobilaria</h3>
+        
+                <h1>
+                    Busca lo que necesitas, <br>
+                    casas, departamentos, <br>
+                    oficinas o vende <br>
+                    tus propiedades.
+                </h1>
+        
+                <div class="home-content__buttons">
+                    <a href="detalles.html" class="smoothscroll btn btn--stroke">
+                        ve los servicios
+                    </a>
+                    <a href="html/contacto.html" class="smoothscroll btn btn--stroke">
+                        Contactanos
+                    </a>
+                </div>
+        
+            </div>
+
+        
+            <div class="home-content__line"></div>
+        
+        </div> 
+        
+        
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+        </ul> 
+     
     </section>
-    
+
     <section class="listings">
-		<div class="wrapper">
-			<ul class="properties_list">
-				<li>
-					<a href="#">
-						<img src="img/property_1.jpg" alt="" title="" class="property_img"/>
-					</a>
-					<span class="price">$2500</span>
-					<div class="property_details">
-						<h1>
-							<a href="#">Fuisque dictum tortor at purus libero</a>
-						</h1>
-						<h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
-					</div>
-				</li>
-				<li>
-					<a href="#">
-						<img src="img/property_2.jpg" alt="" title="" class="property_img"/>
-					</a>
-					<span class="price">$1000</span>
-					<div class="property_details">
-						<h1>
-							<a href="#">Fuisque dictum tortor at purus libero</a>
-						</h1>
-						<h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
-					</div>
-				</li>
-					<li>
-						<a href="#">
-							<img src="img/property_3.jpg" alt="" title="" class="property_img"/>
-						</a>
-						<span class="price">$500</span>
-						<div class="property_details">
-							<h1>
-								<a href="#">Fuisque dictum tortor at purus libero</a>
-							</h1>
-							<h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
-						</div>
-					</li>
-				<li>
-					<a href="#">
-						<img src="img/property_1.jpg" alt="" title="" class="property_img"/>
-					</a>
-					<span class="price">$2500</span>
-					<div class="property_details">
-						<h1>
-							<a href="#">Fuisque dictum tortor at purus libero</a>
-						</h1>
-						<h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
-					</div>
-				</li>
-				<li>
-					<a href="#">
-						<img src="img/property_2.jpg" alt="" title="" class="property_img"/>
-					</a>
-					<span class="price">$1000</span>
-					<div class="property_details">
-						<h1>
-							<a href="#">Fuisque dictum tortor at purus libero</a>
-						</h1>
-						<h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
-					</div>
-				</li>
-				<li>
-					<a href="#">
-						<img src="img/property_3.jpg" alt="" title="" class="property_img"/>
-					</a>
-					<span class="price">$500</span>
-					<div class="property_details">
-						<h1>
-							<a href="#">Fuisque dictum tortor at purus libero</a>
-						</h1>
-						<h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
-					</div>
-				</li>
-				<li>
-					<a href="#">
-						<img src="img/property_1.jpg" alt="" title="" class="property_img"/>
-					</a>
-					<span class="price">$2500</span>
-					<div class="property_details">
-						<h1>
-							<a href="#">Fuisque dictum tortor at purus libero</a>
-						</h1>
-						<h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
-					</div>
-				</li>
-				<li>
-					<a href="#">
-						<img src="img/property_2.jpg" alt="" title="" class="property_img"/>
-					</a>
-					<span class="price">$1000</span>
-					<div class="property_details">
-						<h1>
-							<a href="#">Fuisque dictum tortor at purus libero</a>
-						</h1>
-						<h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
-					</div>
-				</li>
-				<li>
-					<a href="#">
-						<img src="img/property_3.jpg" alt="" title="" class="property_img"/>
-					</a>
-					<span class="price">$500</span>
-					<div class="property_details">
-						<h1>
-							<a href="#">Fuisque dictum tortor at purus libero</a>
-						</h1>
-						<h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
-					</div>
-				</li>
-			</ul>
-		</div>
+        <div class="wrapper">
+            <ul class="properties_list">
+                <li>
+                    <a href="#">
+                        <img src="img/property_1.jpg" alt="" title="" class="property_img"/>
+                    </a>
+                    <span class="price">$2500</span>
+                    <div class="property_details">
+                        <h1>
+                            <a href="#">Fuisque dictum tortor at purus libero</a>
+                        </h1>
+                        <h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/property_2.jpg" alt="" title="" class="property_img"/>
+                    </a>
+                    <span class="price">$1000</span>
+                    <div class="property_details">
+                        <h1>
+                            <a href="#">Fuisque dictum tortor at purus libero</a>
+                        </h1>
+                        <h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
+                    </div>
+                </li>
+                    <li>
+                        <a href="#">
+                            <img src="img/property_3.jpg" alt="" title="" class="property_img"/>
+                        </a>
+                        <span class="price">$500</span>
+                        <div class="property_details">
+                            <h1>
+                                <a href="#">Fuisque dictum tortor at purus libero</a>
+                            </h1>
+                            <h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
+                        </div>
+                    </li>
+                <li>
+                    <a href="#">
+                        <img src="img/property_1.jpg" alt="" title="" class="property_img"/>
+                    </a>
+                    <span class="price">$2500</span>
+                    <div class="property_details">
+                        <h1>
+                            <a href="#">Fuisque dictum tortor at purus libero</a>
+                        </h1>
+                        <h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/property_2.jpg" alt="" title="" class="property_img"/>
+                            </a>
+                            <span class="price">$1000</span>
+                            <div class="property_details">
+                                <h1>
+                                    <a href="#">Fuisque dictum tortor at purus libero</a>
+                                </h1>
+                                <h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/property_3.jpg" alt="" title="" class="property_img"/>
+                            </a>
+                            <span class="price">$500</span>
+                            <div class="property_details">
+                                <h1>
+                                    <a href="#">Fuisque dictum tortor at purus libero</a>
+                                </h1>
+                                <h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/property_1.jpg" alt="" title="" class="property_img"/>
+                    </a>
+                    <span class="price">$2500</span>
+                    <div class="property_details">
+                        <h1>
+                            <a href="#">Fuisque dictum tortor at purus libero</a>
+                        </h1>
+                        <h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/property_2.jpg" alt="" title="" class="property_img"/>
+                    </a>
+                    <span class="price">$1000</span>
+                    <div class="property_details">
+                        <h1>
+                            <a href="#">Fuisque dictum tortor at purus libero</a>
+                        </h1>
+                        <h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/property_3.jpg" alt="" title="" class="property_img"/>
+                    </a>
+                    <span class="price">$500</span>
+                    <div class="property_details">
+                         <h1>
+                             <a href="#">Fuisque dictum tortor at purus libero</a>
+                        </h1>
+                        <h2>2 kitchens, 2 bed, 2 bath... <span class="property_size">(288ftsq)</span></h2>
+                     </div>
+                </li>
+            </ul>
+        </div>
     </section>
-	
-	
-	
+            
+            
+            
     <footer>
-		<div class="wrapper footer">
-
-			<ul>
+        <div class="wrapper footer">
+        
+            <ul>
                 <li class="links">
                     <ul>
                         <li><a href="index.html">DCM Inmobilaria</a></li>
                     </ul>
                 </li>
-
-				<li class="links">
-					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="#">Servicios</a></li>
-						<li><a href="html/contacto.html">Contactanos</a></li>
-					</ul>
+        
+                <li class="links">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#">Servicios</a></li>
+                        <li><a href="html/contacto.html">Contactanos</a></li>
+                    </ul>
                 </li>
-
-
-				<li class="about">
-					<p>Ofrecer el mejor servicio de intermediacion entre la oferta y la demanda de Bienes Raices en la ciudad de Santa Cruz de la Sierra - Bolivia</p>
-                    <div class="col-md-4 col-md-push-8">
+        
+        
+                <li class="about">
+                    <p>Ofrecer el mejor servicio de intermediacion entre la oferta y la demanda de Bienes Raices en la ciudad de Santa Cruz de la Sierra - Bolivia</p>
+                    <div>
                         <ul class="footer-social">
                             <li><a href="https://www.facebook.com/inmobiliaraiaDCM/" class="facebook"><i class="fa fa-facebook"></i></a></li>
                         </ul>
                     </div> 
-				</li>
-			</ul>
-		</div>
-
-		<div class="copyrights wrapper">
-			Copyright © 2019. Todos los derechos reservados.
-		</div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="copyrights wrapper">
+            Copyright © 2019. Todos los derechos reservados.
+         </div>
     </footer>
-    <script type="text/javascript" src="js/jquery.js"></script>
+    
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
